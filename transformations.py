@@ -9,8 +9,12 @@ distance_to_pipeline_m = 200 * 1852  # Convert 200 nautical miles to meters
 
 # 1. Calculate Transit Time with Units in Meters and Seconds
 def calculate_transit_time(period, distance=distance_to_pipeline_m):
-    speed = (period * 1.5) * 1852 / 3600  # Convert NM/h to m/s
-    return distance / speed  # Transit time in seconds
+    speed = period * 1.5
+    transit_time = distance / speed  # Transit time in seconds
+
+
+    return transit_time
+
 
 # 2. Calculate Shoaling Coefficient with Units in Meters and Seconds
 def calculate_shoaling_coefficient(wavePeriod):
