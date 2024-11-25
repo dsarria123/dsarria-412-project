@@ -65,8 +65,8 @@ This project focuses on creating a wave prediction model to assist surfers by fo
 4. **Model Development**:
    - An LSTM neural network is trained on past wave and weather data to predict future surf conditions at the surf spot.
 
-5. **Real-Time Integration NOTDONE**:
-   - A real-time forecasting system can be set up to pull current data from NOAA, updating predictions as new observations are received.
+5. **Real-Time Integration**:
+   - A real-time forecasting system can is set up to pull current data from NOAA, updating predictions as new observations are received.
 
 ### Implementation Details
 
